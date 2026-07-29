@@ -1,0 +1,36 @@
+包名: Xoxo
+AppID: 70969755
+App名称: FL-Xoixz
+
+配置地址: https://1v1h5.s3.us-east-1.amazonaws.com/login.html
+key: cacd
+password: 5oa7fg2j
+
+aes_key: q8h7j3s64q1iesgp
+aes_iv: m4qp29xzf72gqwjg
+
+正式官网: app.r4z14uho.link
+接口地址: opi.r4z14uho.link
+
+内购id:
+金额		钻石数		批次号(苹果商品id)
+99.99		63700		fxkpgbzeikxrbjiu
+49.99		29400		aphzviolhauqweaj
+19.99		10800		crcsqbbwqykveuxw
+9.99		5150		soorwnaliinignbn
+4.99		2450		dsvpouxsbcjbjozc
+1.99		800		recvkuvzngxrewit
+0.99		400		vlusjghsogwcwbfc
+
+姓名
+与账户持有人姓名
+账户号码
+843727112275664
+ACH汇款路线号码
+028000024
+SWIFT/BIC代码
+CHASUS33
+银行名称
+JPMORGAN CHASE BANK, N.A.
+银行地址
+270 Park Ave, New York, NY 10017

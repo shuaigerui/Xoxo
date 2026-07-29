@@ -6,8 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		04E66E343019E3D400E1E793 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E66E333019E3D400E1E793 /* StoreKit.framework */; };
+		2C7825A97D0FF682DC024A57 /* Pods_BlockXoxoRp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFB6C050B20BA081C7B5AFB /* Pods_BlockXoxoRp.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		0462CA793018451E00CA4385 /* BlockXoxoRp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockXoxoRp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E66E333019E3D400E1E793 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		5465722D493DE9C7776A906A /* Pods-BlockXoxoRp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockXoxoRp.debug.xcconfig"; path = "Target Support Files/Pods-BlockXoxoRp/Pods-BlockXoxoRp.debug.xcconfig"; sourceTree = "<group>"; };
+		804E691BE99B8117A318AA73 /* Pods-BlockXoxoRp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockXoxoRp.release.xcconfig"; path = "Target Support Files/Pods-BlockXoxoRp/Pods-BlockXoxoRp.release.xcconfig"; sourceTree = "<group>"; };
+		FAFB6C050B20BA081C7B5AFB /* Pods_BlockXoxoRp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockXoxoRp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -36,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C7825A97D0FF682DC024A57 /* Pods_BlockXoxoRp.framework in Frameworks */,
+				04E66E343019E3D400E1E793 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +58,8 @@
 			children = (
 				0462CA7B3018451E00CA4385 /* BlockXoxoRp */,
 				0462CA7A3018451E00CA4385 /* Products */,
+				170BDC5ED92C726BFD539E90 /* Pods */,
+				F2578885E4B046FC81B4F2E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +71,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		170BDC5ED92C726BFD539E90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5465722D493DE9C7776A906A /* Pods-BlockXoxoRp.debug.xcconfig */,
+				804E691BE99B8117A318AA73 /* Pods-BlockXoxoRp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F2578885E4B046FC81B4F2E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04E66E333019E3D400E1E793 /* StoreKit.framework */,
+				FAFB6C050B20BA081C7B5AFB /* Pods_BlockXoxoRp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,9 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0462CA8C3018451F00CA4385 /* Build configuration list for PBXNativeTarget "BlockXoxoRp" */;
 			buildPhases = (
+				43EE3149AFF8B5B905A91F53 /* [CP] Check Pods Manifest.lock */,
 				0462CA753018451E00CA4385 /* Sources */,
 				0462CA763018451E00CA4385 /* Frameworks */,
 				0462CA773018451E00CA4385 /* Resources */,
+				9A7460AA1829887633B863DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -77,8 +110,6 @@
 				0462CA7B3018451E00CA4385 /* BlockXoxoRp */,
 			);
 			name = BlockXoxoRp;
-			packageProductDependencies = (
-			);
 			productName = BlockXoxoRp;
 			productReference = 0462CA793018451E00CA4385 /* BlockXoxoRp.app */;
 			productType = "com.apple.product-type.application";
@@ -90,6 +121,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = BX_;
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
@@ -127,6 +159,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43EE3149AFF8B5B905A91F53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockXoxoRp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A7460AA1829887633B863DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlockXoxoRp/Pods-BlockXoxoRp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlockXoxoRp/Pods-BlockXoxoRp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlockXoxoRp/Pods-BlockXoxoRp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0462CA753018451E00CA4385 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,65 +218,89 @@
 /* Begin XCBuildConfiguration section */
 		0462CA8D3018451F00CA4385 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5465722D493DE9C7776A906A /* Pods-BlockXoxoRp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HY3YA6W479;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlockXoxoRp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Xoxo;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Xoxo needs camera access so you can photograph your brick builds for posts and update your profile avatar.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Xoxo needs microphone access for video calls with fellow builders.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Xoxo may save edited build photos to your library when you choose to keep them.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Xoxo needs photo library access so you can choose build photos for posts and set your profile avatar.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = aaa.BlockXoxoRp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BlockXoxo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0462CA8E3018451F00CA4385 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 804E691BE99B8117A318AA73 /* Pods-BlockXoxoRp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HY3YA6W479;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlockXoxoRp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Xoxo;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Xoxo needs camera access so you can photograph your brick builds for posts and update your profile avatar.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Xoxo needs microphone access for video calls with fellow builders.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Xoxo may save edited build photos to your library when you choose to keep them.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Xoxo needs photo library access so you can choose build photos for posts and set your profile avatar.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = aaa.BlockXoxoRp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BlockXoxo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

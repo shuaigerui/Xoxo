@@ -1,0 +1,110 @@
+workflows:
+  ios-workflow:
+    name: iOS Build
+    max_build_duration: 120
+    instance_type: mac_mini_m2
+    
+    integrations:
+      app_store_connect: Xoxo  # TODO: 改成你的 App Store Connect 集成名称
+    
+    environment:
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.BlockXoxo
+      vars:
+        BUNDLE_ID: "com.BlockXoxo"  # TODO: 与上面保持一致
+      xcode: latest
+      cocoapods: default
+    
+    scripts:
+      - name: Set project settings
+        script: |
+          # 直接指定 workspace 和 scheme（避免自动检测选到 Facebook SDK）
+          XCODE_WORKSPACE="BlockXoxoRp.xcworkspace"
+          XCODE_SCHEME="BlockXoxoRp"
+          echo "XCODE_WORKSPACE=$XCODE_WORKSPACE" >> $CM_ENV
+          echo "XCODE_SCHEME=$XCODE_SCHEME" >> $CM_ENV
+          echo "Workspace: $XCODE_WORKSPACE"
+          echo "Scheme: $XCODE_SCHEME"
+      
+      - name: Install CocoaPods dependencies
+        script: |
+          if [ -f "Podfile" ]; then
+            if grep -Eq '^[[:space:]]*pod[[:space:]]+["'\'']' Podfile; then
+              pod install
+            else
+              echo "Podfile contains no pod dependencies, skipping pod install"
+            fi
+          else
+            echo "No Podfile found, skipping CocoaPods"
+          fi
+      
+      - name: Set up code signing settings on Xcode project
+        script: |
+          xcode-project use-profiles
+      
+      - name: Verify signing profiles
+        script: |
+          echo "===== 已安装的 Provisioning Profiles ====="
+          ls -la ~/Library/MobileDevice/Provisioning\ Profiles/ 2>/dev/null || echo "No profiles directory"
+          echo ""
+          echo "===== Profile 详细信息 ====="
+          for profile in ~/Library/MobileDevice/Provisioning\ Profiles/*.mobileprovision; do
+            if [ -f "$profile" ]; then
+              echo "--- $(basename "$profile") ---"
+              security cms -D -i "$profile" 2>/dev/null | grep -A1 "application-identifier\|com.apple.developer\|Name\|TeamIdentifier\|com.apple.security.application-groups\|com.apple.developer.associated-domains" || true
+              echo ""
+            fi
+          done
+          echo ""
+          echo "===== 各 Target 签名配置 ====="
+          xcodebuild -workspace "$XCODE_WORKSPACE" -scheme "$XCODE_SCHEME" -showBuildSettings 2>/dev/null | grep -E "PRODUCT_BUNDLE_IDENTIFIER|PROVISIONING_PROFILE|CODE_SIGN|DEVELOPMENT_TEAM" || true
+      
+      - name: Increment build number
+        script: |
+          cd $CM_BUILD_DIR
+          
+          # 方案1: 尝试从 TestFlight 获取最新版本号
+          LATEST_BUILD_NUMBER=$(app-store-connect get-latest-testflight-build-number "$BUNDLE_ID" 2>&1) || true
+          echo "TestFlight API returned: $LATEST_BUILD_NUMBER"
+          
+          if [[ "$LATEST_BUILD_NUMBER" =~ ^[0-9]+$ ]]; then
+            NEW_BUILD_NUMBER=$((LATEST_BUILD_NUMBER + 1))
+            echo "Using TestFlight build number + 1"
+          # 方案2: 使用 Codemagic 内置构建号
+          elif [[ -n "$BUILD_NUMBER" && "$BUILD_NUMBER" =~ ^[0-9]+$ ]]; then
+            NEW_BUILD_NUMBER=$BUILD_NUMBER
+            echo "Using Codemagic BUILD_NUMBER"
+          # 方案3: 保底使用短时间戳（日时分，6位数字）
+          else
+            NEW_BUILD_NUMBER=$(date +%d%H%M)
+            echo "Fallback to short timestamp (DDHHMM)"
+          fi
+          
+          echo "Setting build number to: $NEW_BUILD_NUMBER"
+          agvtool new-version -all $NEW_BUILD_NUMBER
+      
+      - name: Build ipa for distribution
+        script: |
+          xcode-project build-ipa \
+            --workspace "$XCODE_WORKSPACE" \
+            --scheme "$XCODE_SCHEME"
+    
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - /tmp/xcodebuild_archive.log
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+    
+    publishing:
+      email:
+        recipients:
+          - 544469923@qq.com  # TODO: 接收codemagic处理消息的邮箱
+        notify:
+          success: true
+          failure: true
+      
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true
+

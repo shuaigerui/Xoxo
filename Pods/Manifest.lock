@@ -1,0 +1,20 @@
+PODS:
+  - IQKeyboardManager (6.5.19)
+  - SnapKit (5.7.1)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - IQKeyboardManager
+    - SnapKit
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: c8665b3396bd0b79402b4c573eac345a31c7d485
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+
+PODFILE CHECKSUM: 9c200c71471e7d6ce8131630feb4fb43262e5268
+
+COCOAPODS: 1.16.2
