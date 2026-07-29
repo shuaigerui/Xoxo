@@ -1,0 +1,6 @@
+framework module Pods_BlockXoxoRp {
+  umbrella header "Pods-BlockXoxoRp-umbrella.h"
+
+  export *
+  module * { export * }
+}

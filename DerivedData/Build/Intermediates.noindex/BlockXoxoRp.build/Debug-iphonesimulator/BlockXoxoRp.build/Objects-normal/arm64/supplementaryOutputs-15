@@ -1,0 +1,23 @@
+{
+  "/Users/mac/Desktop/BlockXoxoRp/BlockXoxoRp/Core/Session/CurrentUserSession.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/CurrentUserSession.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/CurrentUserSession.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/CurrentUserSession.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/CurrentUserSession.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/CurrentUserSession.swiftdeps"
+  },
+  "/Users/mac/Desktop/BlockXoxoRp/BlockXoxoRp/Core/Storage/LocalStore.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/LocalStore.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/LocalStore.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/LocalStore.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/LocalStore.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/LocalStore.swiftdeps"
+  },
+  "/Users/mac/Desktop/BlockXoxoRp/BlockXoxoRp/Features/Auth/LoginSignUpViewController.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/LoginSignUpViewController.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/LoginSignUpViewController.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/LoginSignUpViewController.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/LoginSignUpViewController.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/LoginSignUpViewController.swiftdeps"
+  }
+}

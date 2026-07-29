@@ -1,0 +1,14 @@
+Target dependency graph (6 targets)
+Target 'BlockXoxoRp' in project 'BlockXoxoRp'
+➜ Implicit dependency on target 'Pods-BlockXoxoRp' in project 'Pods' via file 'Pods_BlockXoxoRp.framework' in build phase 'Link Binary'
+➜ Implicit dependency on target 'IQKeyboardManager' in project 'Pods' via options '-framework IQKeyboardManager' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'SnapKit' in project 'Pods' via options '-framework SnapKit' in build setting 'OTHER_LDFLAGS'
+Target 'Pods-BlockXoxoRp' in project 'Pods'
+➜ Explicit dependency on target 'IQKeyboardManager' in project 'Pods'
+➜ Explicit dependency on target 'SnapKit' in project 'Pods'
+Target 'SnapKit' in project 'Pods'
+➜ Explicit dependency on target 'SnapKit-SnapKit_Privacy' in project 'Pods'
+Target 'SnapKit-SnapKit_Privacy' in project 'Pods' (no dependencies)
+Target 'IQKeyboardManager' in project 'Pods'
+➜ Explicit dependency on target 'IQKeyboardManager-IQKeyboardManager' in project 'Pods'
+Target 'IQKeyboardManager-IQKeyboardManager' in project 'Pods' (no dependencies)

@@ -1,0 +1,30 @@
+{
+  "/Users/mac/Desktop/BlockXoxoRp/Pods/SnapKit/Sources/ConstraintOffsetTarget.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintOffsetTarget.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintOffsetTarget.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintOffsetTarget.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintOffsetTarget.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintOffsetTarget.swiftdeps"
+  },
+  "/Users/mac/Desktop/BlockXoxoRp/Pods/SnapKit/Sources/ConstraintPriority.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintPriority.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintPriority.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintPriority.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintPriority.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintPriority.swiftdeps"
+  },
+  "/Users/mac/Desktop/BlockXoxoRp/Pods/SnapKit/Sources/ConstraintPriorityTarget.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintPriorityTarget.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintPriorityTarget.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintPriorityTarget.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintPriorityTarget.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintPriorityTarget.swiftdeps"
+  },
+  "/Users/mac/Desktop/BlockXoxoRp/Pods/SnapKit/Sources/ConstraintRelatableTarget.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintRelatableTarget.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintRelatableTarget.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintRelatableTarget.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintRelatableTarget.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintRelatableTarget.swiftdeps"
+  }
+}

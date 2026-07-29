@@ -1,0 +1,23 @@
+{
+  "/Users/mac/Desktop/BlockXoxoRp/BlockXoxoRp/Core/Network/AESCrypto.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/AESCrypto.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/AESCrypto.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/AESCrypto.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/AESCrypto.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/AESCrypto.swiftdeps"
+  },
+  "/Users/mac/Desktop/BlockXoxoRp/BlockXoxoRp/Core/Network/APIClient.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/APIClient.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/APIClient.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/APIClient.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/APIClient.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/APIClient.swiftdeps"
+  },
+  "/Users/mac/Desktop/BlockXoxoRp/BlockXoxoRp/Core/Seed/CatalogSeeder.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/CatalogSeeder.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/CatalogSeeder.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/CatalogSeeder.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/CatalogSeeder.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/CatalogSeeder.swiftdeps"
+  }
+}

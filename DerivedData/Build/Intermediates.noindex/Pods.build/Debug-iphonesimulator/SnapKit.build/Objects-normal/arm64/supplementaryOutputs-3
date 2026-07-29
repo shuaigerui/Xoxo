@@ -1,0 +1,30 @@
+{
+  "/Users/mac/Desktop/BlockXoxoRp/Pods/SnapKit/Sources/ConstraintInsetTarget.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintInsetTarget.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintInsetTarget.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintInsetTarget.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintInsetTarget.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintInsetTarget.swiftdeps"
+  },
+  "/Users/mac/Desktop/BlockXoxoRp/Pods/SnapKit/Sources/ConstraintInsets.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintInsets.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintInsets.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintInsets.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintInsets.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintInsets.swiftdeps"
+  },
+  "/Users/mac/Desktop/BlockXoxoRp/Pods/SnapKit/Sources/ConstraintItem.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintItem.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintItem.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintItem.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintItem.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintItem.swiftdeps"
+  },
+  "/Users/mac/Desktop/BlockXoxoRp/Pods/SnapKit/Sources/ConstraintLayoutGuide.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintLayoutGuide.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintLayoutGuide.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintLayoutGuide.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintLayoutGuide.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintLayoutGuide.swiftdeps"
+  }
+}

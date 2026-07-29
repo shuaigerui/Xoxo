@@ -1,0 +1,23 @@
+{
+  "/Users/mac/Desktop/BlockXoxoRp/BlockXoxoRp/App/MainTabBarController.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/MainTabBarController.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/MainTabBarController.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/MainTabBarController.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/MainTabBarController.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/MainTabBarController.swiftdeps"
+  },
+  "/Users/mac/Desktop/BlockXoxoRp/BlockXoxoRp/App/RootRouter.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/RootRouter.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/RootRouter.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/RootRouter.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/RootRouter.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/RootRouter.swiftdeps"
+  },
+  "/Users/mac/Desktop/BlockXoxoRp/BlockXoxoRp/Common/Components/BXCommonViews.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/BXCommonViews.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/BXCommonViews.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/BXCommonViews.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/BXCommonViews.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/BXCommonViews.swiftdeps"
+  }
+}

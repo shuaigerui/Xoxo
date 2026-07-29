@@ -1,0 +1,23 @@
+{
+  "/Users/mac/Desktop/BlockXoxoRp/BlockXoxoRp/Features/Auth/WelcomeGuideViewController.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/WelcomeGuideViewController.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/WelcomeGuideViewController.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/WelcomeGuideViewController.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/WelcomeGuideViewController.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/WelcomeGuideViewController.swiftdeps"
+  },
+  "/Users/mac/Desktop/BlockXoxoRp/BlockXoxoRp/Features/Community/CommunityViewController.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/CommunityViewController.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/CommunityViewController.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/CommunityViewController.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/CommunityViewController.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/CommunityViewController.swiftdeps"
+  },
+  "/Users/mac/Desktop/BlockXoxoRp/BlockXoxoRp/Features/Discover/DiscoverViewController.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/DiscoverViewController.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/DiscoverViewController.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/DiscoverViewController.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/DiscoverViewController.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/DiscoverViewController.swiftdeps"
+  }
+}

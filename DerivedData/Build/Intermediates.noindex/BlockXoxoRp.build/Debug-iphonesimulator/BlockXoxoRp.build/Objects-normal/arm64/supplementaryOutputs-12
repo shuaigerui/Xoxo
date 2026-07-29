@@ -1,0 +1,23 @@
+{
+  "/Users/mac/Desktop/BlockXoxoRp/BlockXoxoRp/Common/Components/BXDialog.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/BXDialog.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/BXDialog.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/BXDialog.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/BXDialog.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/BXDialog.swiftdeps"
+  },
+  "/Users/mac/Desktop/BlockXoxoRp/BlockXoxoRp/Common/Components/BXSkeletonView.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/BXSkeletonView.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/BXSkeletonView.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/BXSkeletonView.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/BXSkeletonView.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/BXSkeletonView.swiftdeps"
+  },
+  "/Users/mac/Desktop/BlockXoxoRp/BlockXoxoRp/Common/Components/MediaPickerHelper.swift" : {
+    "const-values" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/MediaPickerHelper.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/MediaPickerHelper.d",
+    "diagnostics" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/MediaPickerHelper.dia",
+    "object" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/MediaPickerHelper.o",
+    "swift-dependencies" : "/Users/mac/Desktop/BlockXoxoRp/DerivedData/Build/Intermediates.noindex/BlockXoxoRp.build/Debug-iphonesimulator/BlockXoxoRp.build/Objects-normal/arm64/MediaPickerHelper.swiftdeps"
+  }
+}
