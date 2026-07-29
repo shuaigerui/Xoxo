@@ -9,7 +9,15 @@ final class WelcomeViewController: UIViewController {
         bg.contentMode = .scaleAspectFill
         view.addSubview(bg)
         bg.snp.makeConstraints { $0.edges.equalToSuperview() }
-
+        
+        let title = UIImageView(image: UIImage(named: "welcome_title"))
+        title.contentMode = .scaleAspectFill
+        view.addSubview(title)
+        title.snp.makeConstraints {
+            $0.centerX.equalToSuperview()
+            $0.top.equalTo(view.safeAreaLayoutGuide).offset(100)
+        }
+        
         let start = UIButton(type: .custom)
         start.setImage(UIImage(named: "welcome_start"), for: .normal)
         start.addTarget(self, action: #selector(startTap), for: .touchUpInside)
