@@ -37,12 +37,12 @@ final class WelcomeViewController: UIViewController {
 
 final class GuideViewController: UIViewController {
     private let page: Int
-    private let titles = ["Share Your Builds", "Join Brick Crews", "Chat & Inspire"]
-    private let subs = [
-        "Show off your amazing creations to the world.",
-        "Find builders who love the same themes as you.",
-        "Exchange tips and build together in BrickVerse."
-    ]
+//    private let titles = ["Share Your Builds", "Join Brick Crews", "Chat & Inspire"]
+//    private let subs = [
+//        "Show off your amazing creations to the world.",
+//        "Find builders who love the same themes as you.",
+//        "Exchange tips and build together in BrickVerse."
+//    ]
     private let bgs = ["guide01_bg", "guide02_bg", "guide03_bg"]
     private let pages = ["guide01_page", "guide02_page", "guide03_page"]
 
@@ -57,36 +57,36 @@ final class GuideViewController: UIViewController {
         navigationController?.setNavigationBarHidden(true, animated: false)
         view.backgroundColor = UIColor(white: 0.96, alpha: 1)
 
-        let title = UILabel()
-        title.text = titles[page]
-        title.font = BXFont.title(28)
-        title.textColor = .black
-        view.addSubview(title)
-        title.snp.makeConstraints {
-            $0.top.equalTo(view.safeAreaLayoutGuide).offset(24)
-            $0.leading.trailing.equalToSuperview().inset(24)
-        }
-
-        let line = UIView()
-        line.backgroundColor = BXColor.accent
-        view.addSubview(line)
-        line.snp.makeConstraints {
-            $0.leading.equalTo(title)
-            $0.top.equalTo(title.snp.bottom).offset(8)
-            $0.width.equalTo(64)
-            $0.height.equalTo(4)
-        }
-
-        let sub = UILabel()
-        sub.text = subs[page]
-        sub.font = BXFont.body(15)
-        sub.textColor = .black
-        sub.numberOfLines = 0
-        view.addSubview(sub)
-        sub.snp.makeConstraints {
-            $0.top.equalTo(line.snp.bottom).offset(12)
-            $0.leading.trailing.equalToSuperview().inset(24)
-        }
+//        let title = UILabel()
+//        title.text = titles[page]
+//        title.font = BXFont.title(28)
+//        title.textColor = .black
+//        view.addSubview(title)
+//        title.snp.makeConstraints {
+//            $0.top.equalTo(view.safeAreaLayoutGuide).offset(24)
+//            $0.leading.trailing.equalToSuperview().inset(24)
+//        }
+//
+//        let line = UIView()
+//        line.backgroundColor = BXColor.accent
+//        view.addSubview(line)
+//        line.snp.makeConstraints {
+//            $0.leading.equalTo(title)
+//            $0.top.equalTo(title.snp.bottom).offset(8)
+//            $0.width.equalTo(64)
+//            $0.height.equalTo(4)
+//        }
+//
+//        let sub = UILabel()
+//        sub.text = subs[page]
+//        sub.font = BXFont.body(15)
+//        sub.textColor = .black
+//        sub.numberOfLines = 0
+//        view.addSubview(sub)
+//        sub.snp.makeConstraints {
+//            $0.top.equalTo(line.snp.bottom).offset(12)
+//            $0.leading.trailing.equalToSuperview().inset(24)
+//        }
 
         let art = UIImageView(image: UIImage(named: bgs[page]))
         art.contentMode = .scaleAspectFit
